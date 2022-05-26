@@ -22,3 +22,34 @@ var x = 10;
   // Here x is 2
 }
 // Here x is 10
+
+Arrow Functions
+Arrow functions allows a short syntax for writing function expressions
+// ES5
+var x = function(x, y) {
+   return x * y;
+}
+
+// ES6
+const x = (x, y) => x * y;
+
+The For/Of Loop -
+The JavaScript for/of statement loops through the values of an iterable objects
+
+Looping over an Array -
+const cars = ["BMW", "Volvo", "Mini"];
+let text = "";
+
+for (let x of cars) {
+  text += x + " ";
+}
+
+Looping over a String -
+let language = "JavaScript";
+let text = "";
+
+for (let x of language) {
+    text += x + " ";
+}
+
+
