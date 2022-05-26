@@ -95,6 +95,23 @@ myPromise.then(function(value) {
 });
 
 The Symbol Type - 
+ represents a unique `hidden` identifier that no other code can accidentally access
+ 
+Default Parameter Values -
+ES6 allows function parameters to have default values
+function myFunction(x, y = 10) {
+  // y is 10 if not passed or undefined
+  return x + y;
+}
+myFunction(5); // will return 15
 
+Function Rest Parameter -
+allows a function to treat an indefinite number of arguments as an array
+function sum(...args) {
+  let sum = 0;
+  for (let arg of args) sum += arg;
+  return sum;
+}
 
+let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
 
