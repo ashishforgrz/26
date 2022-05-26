@@ -66,4 +66,35 @@ fruits.set(apples, 500);
 fruits.set(bananas, 300);
 fruits.set(oranges, 200);
 
+JavaScript Sets - 
+// Create a Set
+const letters = new Set();
+
+// Add some values to the Set
+letters.add("a");
+letters.add("b");
+letters.add("c");
+
+JavaScript Classes -
+JavaScript Classes are templates for JavaScript Objects
+class Car {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+}
+
+JavaScript Promises -
+Object that links `Producing Code` and `Consuming Code`
+const myPromise = new Promise(function(myResolve, myReject) {
+  setTimeout(function() { myResolve("I love You !!"); }, 3000);
+});
+
+myPromise.then(function(value) {
+  document.getElementById("demo").innerHTML = value;
+});
+
+The Symbol Type - 
+
+
 
