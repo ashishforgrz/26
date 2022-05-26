@@ -129,3 +129,20 @@ returns an Array Iterator object with the keys of an array
 
 Array findIndex() - 
 returns the index of the first array element that passes a test function
+
+New Math methods -
+
+The Math.trunc() -
+Math.trunc(x) returns the integer part of x
+
+The Math.sign() -
+Math.sign(x) returns if x is negative, null or positive
+
+The Math.cbrt() -
+Math.cbrt(x) returns the cube root of x
+
+Number.isInteger() -
+The Number.isInteger() method returns true if the argument is an integer
+
+isNaN() -
+The global isNaN() method returns true if the argument is NaN
