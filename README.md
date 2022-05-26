@@ -1,7 +1,7 @@
 # 26/05/2022
  
 =>>ES6 -
-second major revision to JavaScript
+Version of javascript
 
 JavaScript let -
 The let keyword allows you to declare a variable with block scope
