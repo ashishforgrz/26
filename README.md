@@ -115,3 +115,17 @@ function sum(...args) {
 
 let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
 
+String.includes() -
+returns true if a string contains a specified value, otherwise false
+
+String.startsWith() -
+returns true if a string begins with a specified value, otherwise false
+
+String.endsWith() -
+returns true if a string ends with a specified value, otherwise false
+
+Array keys()
+returns an Array Iterator object with the keys of an array
+
+Array findIndex() - 
+returns the index of the first array element that passes a test function
